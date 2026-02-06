@@ -47,6 +47,17 @@ Players select a challenge (Easy, Medium, Hard, or Insane) and try to stop the t
 - **Component Communication**: Used refs and callbacks for parent-child communication
 - **Side Effect Management**: Properly cleaned up intervals to prevent memory leaks
 
+## Project Structure
+```
+src/
+├── components/
+│   ├── Player.jsx
+│   ├── ResultModal.jsx
+│   └── TimerChallenge.jsx
+├── App.jsx
+├── main.jsx
+└── index.css
+```
 ## 🚀 Getting Started
 
 # Install dependencies
@@ -57,3 +68,8 @@ npm run dev
 
 # Build for production
 npm run build
+
+## Credits
+Based on React - The Complete Guide (incl Hooks, React Router, Redux)
+by Maximilian Schwarzmüller – Udemy
+
